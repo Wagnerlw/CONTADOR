@@ -1,0 +1,38 @@
+sd{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 80px;
+   
+
+}
+body{
+
+    min-height: 100vh;
+    background: green;
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+
+section{
+    background: rgba(255, 255, 255, .2);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: #ffa600;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+  }
